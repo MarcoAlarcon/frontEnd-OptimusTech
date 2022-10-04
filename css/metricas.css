@@ -1,0 +1,27 @@
+.metricas{
+    display: flex;
+    padding: 0 112px 96px 112px;
+    justify-content: space-around;
+}
+
+.dados__titulo{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--cor-vinho);
+}
+
+.dados__subtitulo{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cor-azul-escuro);
+    margin: 12px 0 8px 0;
+}
+
+.dados__conteudo{
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cor-cinza);
+    width: 280px;
+}

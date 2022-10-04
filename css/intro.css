@@ -1,0 +1,30 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro__container{
+    padding: 96px 0 107px 0;
+}
+
+.intro__paragrafo{
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--cor-vinho);
+}
+
+.intro__titulo{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 24px 0 36px 0;
+}
+
+.intro__conteudo{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-cinza);
+}

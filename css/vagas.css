@@ -1,0 +1,45 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.vagas__titulo{
+    display: flex;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.vagas__caixa{
+    border: 1px solid#EAECF0;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.vagas__cargo{
+    display: flex;
+    align-items: flex-start;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--cor-azul-escuro);
+    margin: 24px 24px 32px 24px;
+}
+
+.vagas__descricao{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 28px;
+}
+
+.vagas__descricao-caracteristicas{
+    margin: 0 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #667085;
+}

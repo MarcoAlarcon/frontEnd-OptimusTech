@@ -1,0 +1,39 @@
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    padding: 0px 112px 96px 112px;
+}
+
+.depoimentos__subtitulo{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-vinho);
+    margin-bottom: 16px;
+}
+
+.depoimentos__titulo{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--cor-azul-escuro);
+    padding: 0 64px 32px 64px;
+    text-align: center;
+}
+
+.depoimentos__usuario{
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cor-azul-escuro);
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.depoimentos__cargoUsuario{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-cinza);
+}

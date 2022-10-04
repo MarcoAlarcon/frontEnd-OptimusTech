@@ -1,0 +1,20 @@
+@import url(cabecalho.css);
+@import url(intro.css);
+@import url(metricas.css);
+@import url(main.css);
+@import url(vagas.css);
+@import url(depoimentos.css);
+@import url(rodape.css);
+
+:root{
+    --fonte: "Inter";
+    --cor-cinza: #667085;
+    --cor-branca: #FFFFFF;
+    --cor-vinho: #8E2424;
+    --cor-azul-escuro: #101828;
+}
+
+body {
+    font-family: var(--fonte);
+    font-size: 16px;
+}
